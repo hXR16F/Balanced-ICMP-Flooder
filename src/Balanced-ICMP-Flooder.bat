@@ -17,6 +17,7 @@ rem                ^ change this to increase number of threads, f.e.: 4 = 4 thre
 		set /a timeout=%timeout%+8
 	)
 	(set /a maxpacket=%packet%*5) & (set /a totalpackettemp=%totalpackettemp%+%maxpacket%) & (set /a totalpacket=%totalpackettemp%/1024)
+	rem                        ^ change this to increase number of threads, f.e.: 5 = 5 threads
 	if /i "%verbose%" equ "y" echo %maxpacket% bytes sent.
 	title Total : %totalpacket% kilobytes sent
 	goto loop
