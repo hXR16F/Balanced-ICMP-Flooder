@@ -24,7 +24,7 @@ And **line 19** in *"Balanced-ICMP-Flooder.bat"*.
     (set /a maxpacket=%packet%*5)
                                ^ here
 
-- **5** = 5 threads
+- **5** = **5 threads**
 
 # Visualisation
 ![visualisation](https://i.imgur.com/xUlL7EG.png)
