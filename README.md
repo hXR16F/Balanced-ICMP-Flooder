@@ -21,7 +21,7 @@ To change the threads count edit **line 9** in *"Balanced-ICMP-Flooder.bat"*.
 
 And **line 19** in *"Balanced-ICMP-Flooder.bat"*.
 
-    (set /a maxpacket=%packet%*5)
+    (set /a maxpacket=%packet%*5)...
                                ^ here
 
 - **5** = **5 threads**
