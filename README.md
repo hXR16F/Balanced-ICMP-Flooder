@@ -1,4 +1,4 @@
-# Balanced ICMP Flooder
+# Balanced ICMP Flooder - [YouTube](https://www.youtube.com/watch?v=DtG0tnpbtMM&t=1s)
 Simple DoSer/Flooder that automatically adjusts the power *(packet size and timeout)*.
 
 # Usage
